@@ -147,7 +147,7 @@ public class Simulator implements Runnable {
 
         // Create environment
         SimpleEnvironment simpleEnvironment = new SimpleEnvironment(world);
-        //simpleEnvironment.setWind(new Vector3d(0.8, 2.0, 0.0));
+        simpleEnvironment.setWind(new Vector3d(0.8, 2.0, 3.0));
         simpleEnvironment.setWindDeviation(new Vector3d(6.0, 8.0, 0.00));
         //simpleEnvironment.setGroundLevel(0.0f);
         world.addObject(simpleEnvironment);
